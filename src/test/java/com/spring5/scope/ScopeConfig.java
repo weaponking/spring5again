@@ -5,5 +5,5 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan("com.spring5.lifecycle")
-public class LifeCycleConfig {
+public class ScopeConfig {
 }

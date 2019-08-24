@@ -12,7 +12,7 @@ public class TestCase2 {
     public void test1() {
         int index = 0;
         do {
-            ApplicationContext context = new AnnotationConfigApplicationContext(LifeCycleConfig.class);
+            ApplicationContext context = new AnnotationConfigApplicationContext(ScopeConfig.class);
             PrototypeService service = context.getBean(PrototypeService.class);
             log.info("ApplicationContext get PrototypeService hashcode : {} ", service.hashCode());
             index ++;

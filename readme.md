@@ -20,3 +20,15 @@
     
     https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/core.html#beans-factory-method-injection
     
+5. Bean lifecycle 初始化顺序 :
+    
+    a. BeanPostProcessor postProcessBeforeInitialization
+    
+    b. @PostConstruct
+        
+    c. InitializingBean afterPropertiesSet
+    
+    d. BeanPostProcessor postProcessAfterInitialization
+     
+    BeanPostProcessor 对应所有bean   
+    
