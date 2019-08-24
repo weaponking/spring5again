@@ -10,5 +10,13 @@
 
     实现org.springframework.beans.factory.support.MethodReplacer接口
     
-    cglib重新生成子类 重写配置方法返回值 
+    cglib重新生成子类 重写配置方法返回值
+   
+4. 单例Bean引用原型Bean 
+
+    implements ApplicationContextAware 使用ApplicationContext获取prototype bean
+    
+    @Lookup 注入
+    
+    https://docs.spring.io/spring-framework/docs/current/spring-framework-reference/core.html#beans-factory-method-injection
     
