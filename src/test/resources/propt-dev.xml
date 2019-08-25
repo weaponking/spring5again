@@ -10,7 +10,7 @@
     <beans profile="dev">
         <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
             <property name="location">
-                <value>prop/prop-dev.propeties</value>
+                <value>prop/prop-dev.properties</value>
             </property>
         </bean>
     </beans>
@@ -18,7 +18,7 @@
     <beans profile="test">
         <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
             <property name="location">
-                <value>prop/prop.propeties</value>
+                <value>prop/prop.properties</value>
             </property>
         </bean>
     </beans>

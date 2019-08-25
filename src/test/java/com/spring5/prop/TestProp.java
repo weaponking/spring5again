@@ -7,7 +7,7 @@ import org.springframework.context.annotation.PropertySource;
 
 @Configuration
 @Data
-@PropertySource("prop/prop.propeties")
+@PropertySource("prop/prop.properties")
 public class TestProp {
 
     @Value("${test1.name}")
